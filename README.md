@@ -2,57 +2,58 @@
 
 Repositório com projetos desenvolvidos em Python, criados como prática paralela aos estudos do **Curso de Python 3 — Gustavo Guanabara (Curso em Vídeo)**.
 
-> Meu foco principal é Java/Spring Boot. Python é minha stack secundária, usada para treinar lógica de programação e desenvolver projetos hobby.
+---
+
+## 👨‍💻 Sobre mim
+
+Sou desenvolvedor com foco principal em **Java/Spring Boot**. Python é minha stack secundária, usada para treinar lógica de programação, reforçar fundamentos e desenvolver projetos hobby por conta própria.
 
 ---
 
-## 📁 Estrutura
+## 📚 Sobre o repositório
 
-```
-Projetos - Python/
-└── PainelMultitarefas/
-    └── sistemaViaTerminal/
-        └── main.py
-```
+Este repositório reúne projetos individuais desenvolvidos em Python, cada um em sua própria pasta, criados durante o acompanhamento do Curso de Python 3 do [Curso em Vídeo](https://www.cursoemvideo.com/). O objetivo é reforçar lógica de programação e experimentar com conceitos conforme vão sendo estudados — alguns projetos também vão além do conteúdo formal do curso, aplicando conceitos pesquisados por conta própria.
 
----
+## 📁 Organização
 
-## 🖥️ Painel Multitarefas
+Cada pasta na raiz do repositório representa um projeto independente, com seu próprio código-fonte e (quando aplicável) suas próprias dependências.
 
-Sistema de terminal com menu interativo, reunindo diferentes utilitários numa única interface de linha de comando.
-
-### Funcionalidades
-
-- **Calcular IMC** — calcula o Índice de Massa Corporal a partir de peso e altura, classificando o resultado em 6 faixas (abaixo do peso até obesidade grau III)
-- **Calcular Desconto de Compra** — aplica desconto de 10% ou 15% sobre o valor de uma compra
-- **Classificação Etária de Filme** — informa a classificação indicativa recomendada de acordo com a idade informada
-- **Calculadora** — realiza soma, multiplicação, divisão (com tratamento de divisão por zero) e potenciação
-
-### Como executar
-
-```bash
-python PainelMultitarefas/sistemaViaTerminal/main.py
-```
-
-Requer apenas Python 3 instalado — sem dependências externas.
-
-### Tecnologias e conceitos aplicados
+## 🛠️ Tecnologias e conceitos aplicados
 
 - Tipos primitivos, entrada e saída de dados
 - Formatação com f-string
 - Operadores aritméticos, relacionais e lógicos
 - Estruturas de decisão (`if` / `elif` / `else`)
-- Estruturas de repetição (`while`, `break`, `continue`)
+- Estruturas de repetição (`while`, `for`, `break`, `continue`)
+- Módulos da biblioteca padrão (`math`, `random`, `time`, entre outros)
+- Bibliotecas externas conforme o projeto (ex: `colorama`)
 
----
+## ⚙️ Requisitos
 
-## 🚧 Próximos passos
+- [Python 3](https://www.python.org/downloads/) instalado
+- Dependências específicas de cada projeto (quando houver) estarão descritas dentro da própria pasta do projeto
 
-- Adicionar operações restantes da calculadora
-- Explorar novas formas de interface (GUI / API) conforme o aprendizado avança
+## 🚀 Como clonar este repositório
 
----
+```bash
+git clone https://github.com/josegabriel2006/projetos-python.git
+cd projetos-python
+```
 
-## 📚 Sobre
+Depois, entre na pasta do projeto que deseja executar e rode o arquivo principal com:
 
-Projetos criados durante o acompanhamento do Curso de Python 3 do [Curso em Vídeo](https://www.cursoemvideo.com/), com o objetivo de reforçar lógica de programação.
+```bash
+python nome_do_arquivo.py
+```
+
+## 📈 Progresso de estudo
+
+Este repositório é atualizado conforme avanço nos estudos do curso e desenvolvo novos projetos hobby em paralelo.
+
+## 📄 Licença
+
+Este repositório não possui uma licença formal definida — o conteúdo é de uso pessoal e educacional.
+
+## 📬 Contato
+
+Sinta-se à vontade para explorar o código. Sugestões e feedbacks são bem-vindos via [Issues](https://github.com/josegabriel2006/projetos-python/issues).
